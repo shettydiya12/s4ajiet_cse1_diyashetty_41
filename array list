@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class Main{
+    public static void main(String[]args)
+    {
+    ArrayList<String> list=new ArrayList<>();
+    list.add("java");
+    list.add("python");
+    list.add("Java");
+    list.add(0,"diya");
+    list.set(1,"ada");
+    list.remove(2);
+    list.clear();
+    list.size();
+    System.out.println("list:"+list);
+    
+    }
+}
